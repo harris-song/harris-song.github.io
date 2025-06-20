@@ -6,7 +6,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am an undergraduate researcher at the **Structures-Computer Interaction Laboratory** at UCLA, advised by Prof. [M. Khalid Jawed](https://samueli.ucla.edu/people/m-khalid-jawed/) and Postdoctoral Researcher [Tuan-Anh Vu](https://tuananh1007.github.io/). My current work focuses on multi-modal perception and 3D reconstruction, particularly involving thermal, NIR, and depth fusion for agricultural and robotic vision systems. 
+I am a current undergraduate at the **University of California, Los Angeles**, majoring in Computer Science. My experience spans software engineering research, robotics, web development, and financial technology.
+
+The blend of systems, theoretical, and AI-focused coursework has equiped me with a strong foundation to tackle complex problems in software development and machine learning. I've completed upper-division courses in **Algorithms** (CS 180), **Operating Systems** (CS 111), and  **Programming Languages** (CS 131), alongside applied machine learning in Data Mining (CS 145) and **Natural Langauge Processing** (CS 162). I’ve also built systems in Digital and Computer Architecture (CS M152A, CS M151B), supported by foundational training in Statistics (C&EE 110) and Microeconomics (Econ 11). In **Software Construction** (CS 35L), I developed proficiency in debugging, testing, and collaborative Git workflows, which directly informed my projects involving RESTful APIs, PostgreSQL, and full-stack frameworks I’ve built in real-world applications. 
+
+In addition, I am an researcher at the **Structures-Computer Interaction Laboratory**, advised by Prof. [M. Khalid Jawed](https://samueli.ucla.edu/people/m-khalid-jawed/) and Postdoctoral Researcher [Tuan-Anh Vu](https://tuananh1007.github.io/). My current work focuses on multi-modal perception and 3D reconstruction, particularly involving thermal, NIR, and depth fusion for agricultural and robotic vision systems. 
 
 Previously, I've contributed to control systems research advised by Prof. [Jenny Yu](https://ieeexplore.ieee.org/author/37086802910) and MIT Lincoln Laboratory Engineer [Christopher Lai](https://www.linkedin.com/in/cclai/) at the **BANSHEE UAV** project (in collaboration with Lockheed Martin), where I developed autonomous visual tracking for VTOL platforms using ArUco marker detection and derivative-based control. 
 
