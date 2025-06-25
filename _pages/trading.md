@@ -6,9 +6,19 @@ author_profile: false
 
 # Harris Song Trading SMA
 
-Explore my live trading dashboard and analytics at the following link:
+<div style="text-align: center; margin: 30px 0;">
+  <a href="https://harris-song-trading.streamlit.app/" target="_blank" rel="noopener" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 30px; text-decoration: none; border-radius: 10px; font-weight: bold; font-size: 18px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: all 0.3s ease; hover: transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.3);">
+    🚀 Launch Trading Dashboard
+  </a>
+</div>
 
-<a href="https://harris-song-trading.streamlit.app/" target="_blank" rel="noopener">https://harris-song-trading.streamlit.app/</a>
+<iframe
+  src="https://harris-song-trading.streamlit.app/?embed=true"
+  width="100%"
+  height="800"
+  style="border: none;"
+  loading="lazy"
+></iframe>
 
 This Streamlit app showcases:
 - Simple Moving Average (SMA) trading strategies
