@@ -8,7 +8,7 @@ redirect_from:
 ---
 I am a current undergraduate at the **University of California, Los Angeles**, majoring in Computer Science. My experience spans software engineering research, robotics, web development, and financial technology.
 
-The blend of systems, theoretical, and AI-focused coursework has equiped me with a strong foundation to tackle complex problems in software development and machine learning. I've completed upper-division courses in **Algorithms** (CS 180), **Operating Systems** (CS 111), and  **Programming Languages** (CS 131), alongside applied machine learning in Data Mining (CS 145) and **Natural Langauge Processing** (CS 162). I’ve also built systems in Digital and Computer Architecture (CS M152A, CS M151B), supported by foundational training in Statistics (C&EE 110) and Microeconomics (Econ 11). In **Software Construction** (CS 35L), I developed proficiency in debugging, testing, and collaborative Git workflows, which directly informed my projects involving RESTful APIs, PostgreSQL, and full-stack frameworks I’ve built in real-world applications. 
+The blend of systems, theoretical, and AI-focused coursework has equiped me with a strong foundation to tackle complex problems in software development and machine learning. I've completed upper-division courses in **Algorithms** (CS 180), **Operating Systems** (CS 111), and  **Programming Languages** (CS 131), alongside applied machine learning in Data Mining (CS 145) and **Natural Langauge Processing** (CS 162). I've also built systems in Digital and Computer Architecture (CS M152A, CS M151B), supported by foundational training in Statistics (C&EE 110) and Microeconomics (Econ 11). In **Software Construction** (CS 35L), I developed proficiency in debugging, testing, and collaborative Git workflows, which directly informed my projects involving RESTful APIs, PostgreSQL, and full-stack frameworks I've built in real-world applications. 
 
 In addition, I am an researcher at the **Structures-Computer Interaction Laboratory**, advised by Prof. [M. Khalid Jawed](https://samueli.ucla.edu/people/m-khalid-jawed/) and Postdoctoral Researcher [Tuan-Anh Vu](https://tuananh1007.github.io/). My current work focuses on multi-modal perception and 3D reconstruction, particularly involving thermal, NIR, and depth fusion for agricultural and robotic vision systems. 
 
@@ -16,6 +16,15 @@ Previously, I've contributed to control systems research advised by Prof. [Jenny
 
 I have also held software engineering roles at Leidos, where I developed infrastructure tools for autonomous naval vessels, and at the Office of Naval Research, where I worked on real-time detection pipelines using RGB-D imaging and SLAM systems.
 
+<div style="text-align: center; margin: 20px 0;">
+  <a href="/files/nlp.pdf" 
+     onclick="gtag('event', 'download', {'event_category': 'resume', 'event_label': 'nlp.pdf'});"
+     target="_blank" 
+     rel="noopener" 
+     style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px; box-shadow: 0 3px 10px rgba(0,0,0,0.2); transition: all 0.3s ease;">
+    📄 Download Resume (PDF)
+  </a>
+</div>
 
 Research Interests
 ======
