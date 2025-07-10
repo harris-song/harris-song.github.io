@@ -77,7 +77,7 @@ Selected Projects
       <img src="/images/eta.png" width="240" style="border: none;">
     </td>
     <td style ="border: none;">
-      <p><strong>Predicting DoorDash Delivery Time</strong>
+      <p><strong>Predicting DoorDash Delivery Time through Classical Machine Learning</strong>
       <br>
       <strong>Harris Song</strong>, Abhinav Amanaganti, Ethan Maldonado, Afnan Khawaja<br>
       <em>Undergraduate Data Science Course - University of California, Los Angeles</em><br>
