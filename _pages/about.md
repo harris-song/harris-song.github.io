@@ -72,6 +72,19 @@ Selected Projects
       </p>
     </td>
   </tr>
+  <tr style="border: none;">
+    <td width="250" style ="border: none;">
+      <img src="/images/eta.png" width="240" style="border: none;">
+    </td>
+    <td style ="border: none;">
+      <p><strong>Predicting DoorDash Delivery Time</strong>
+      <br>
+      <strong>Harris Song</strong>, Abhinav Amanaganti, Ethan Maldonado, Afnan Khawaja<br>
+      <em>Undergraduate Data Science Course - University of California, Los Angeles</em><br>
+      <a href="/files/eta.pdf">Paper</a>
+      </p>
+    </td>
+  </tr>
 </table>
 
 
