@@ -16,15 +16,6 @@ Previously, I've contributed to control systems research advised by Prof. [Jenny
 
 I have also held software engineering roles at Leidos, where I developed infrastructure tools for autonomous naval vessels, and at the Office of Naval Research, where I worked on real-time detection pipelines using RGB-D imaging and SLAM systems.
 
-<div style="text-align: center; margin: 20px 0;">
-  <a href="/files/nlp.pdf" 
-     onclick="gtag('event', 'download', {'event_category': 'resume', 'event_label': 'nlp.pdf'});"
-     target="_blank" 
-     rel="noopener" 
-     style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px; box-shadow: 0 3px 10px rgba(0,0,0,0.2); transition: all 0.3s ease;">
-    📄 Download Resume (PDF)
-  </a>
-</div>
 
 Research Interests
 ======
