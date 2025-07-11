@@ -39,7 +39,8 @@ Selected Projects
       <strong>Harris Song</strong><br>
       <em>Structures-Computer Lab - University of California, Los Angeles</em><br>
       <a href="https://bobbykabob.github.io/hiddenfruits/">Project Page</a> &nbsp;|&nbsp;
-      <a href="https://bobbykabob.github.io/hiddenfruits/static/paper.pdf">Paper</a>
+      <a href="https://bobbykabob.github.io/hiddenfruits/static/paper.pdf">Paper</a> &nbsp;|&nbsp;
+      <a href="/files/hiddenobject.pdf.">Hidden Object Paper</a>
       </p>
     </td>
   </tr>
