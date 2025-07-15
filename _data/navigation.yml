@@ -34,3 +34,6 @@ main:
 
   - title: "Trading"
     url: /trading/
+
+  - title: "Events Trading"
+    url: /events-contract-trading/
