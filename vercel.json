@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "functions": {
+    "api/generate-page.js": {
+      "maxDuration": 30
+    }
+  },
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://harris-song.github.io"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type, Authorization, X-Requested-With"
+        },
+        {
+          "key": "Access-Control-Max-Age",
+          "value": "86400"
+        }
+      ]
+    }
+  ],
+  "buildCommand": "echo 'API-only deployment - no build needed'",
+  "outputDirectory": ".",
+  "framework": null,
+  "installCommand": "npm install"
+}
