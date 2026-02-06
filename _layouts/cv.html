@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<link rel="stylesheet" href="{{ base_path }}/assets/css/cv-style.css"/>
+<link rel="stylesheet" href="{{ base_path }}/assets/css/cv-layout.css"/>
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="page__inner-wrap">
+      <section class="page__content" itemprop="text">
+        {% include cv-template.html %}
+      </section>
+    </div>
+  </article>
+</div>

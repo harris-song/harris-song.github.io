@@ -6,15 +6,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a current undergraduate at the **University of California, Los Angeles**, majoring in Computer Science. My experience spans software engineering research, robotics, web development, and financial technology.
+I am a current undergraduate at the **University of California, Los Angeles**, majoring in Computer Science (3.82 GPA, expected June 2027). I am currently a **Software Engineer Intern at Shopify**, working on Search (Index Serving), improving Catalog Search performance in C++ with Elasticsearch, approximate nearest neighbor indexing, and large-scale (1B+ item) catalog optimization. My experience spans software engineering, ML research, embedded systems, robotics, and web development.
 
-The blend of systems, theoretical, and AI-focused coursework has equiped me with a strong foundation to tackle complex problems in software development and machine learning. I've completed upper-division courses in **Algorithms** (CS 180), **Operating Systems** (CS 111), and  **Programming Languages** (CS 131), alongside applied machine learning in Data Mining (CS 145) and **Natural Langauge Processing** (CS 162). I've also built systems in Digital and Computer Architecture (CS M152A, CS M151B), supported by foundational training in Statistics (C&EE 110) and Microeconomics (Econ 11). In **Software Construction** (CS 35L), I developed proficiency in debugging, testing, and collaborative Git workflows, which directly informed my projects involving RESTful APIs, PostgreSQL, and full-stack frameworks I've built in real-world applications. 
+The blend of systems, theoretical, and AI-focused coursework has equipped me with a strong foundation to tackle complex problems. I've completed upper-division courses in **Algorithms** (CS 180), **Operating Systems** (CS 111), and **Programming Languages** (CS 131), alongside applied ML in Data Mining (CS 145) and **Natural Language Processing** (CS 162). I've built systems in Digital and Computer Architecture (CS M152A, CS M151B), with foundational training in Statistics (C&EE 110) and Microeconomics (Econ 11). In **Software Construction** (CS 35L), I developed proficiency in debugging, testing, and collaborative Git workflows—skills I apply at LA Hacks, where I've built backend features supporting 6k+ applications through PostgreSQL, Supabase, and Next.js on lahacks.com.
 
-In addition, I am an researcher at the **Structures-Computer Interaction Laboratory**, advised by Prof. [M. Khalid Jawed](https://samueli.ucla.edu/people/m-khalid-jawed/) and Postdoctoral Researcher [Tuan-Anh Vu](https://tuananh1007.github.io/). My current work focuses on multi-modal perception and 3D reconstruction, particularly involving thermal, NIR, and depth fusion for agricultural and robotic vision systems. 
+I am a researcher at the **Structures-Computer Interaction Laboratory**, advised by Prof. [M. Khalid Jawed](https://samueli.ucla.edu/people/m-khalid-jawed/) and Postdoctoral Researcher [Tuan-Anh Vu](https://tuananh1007.github.io/). My work includes **HiddenFruits**: an embedded/ML system for fruit detection with multi-modal CV on NVIDIA Jetson Orin Nano—developing Linux kernel drivers for FLIR Lepton thermal sensors and implementing SPI/I2C/UART protocols. I also contributed to **Reconstruction Using the Invisible** (AAAI 2025), focusing on thermal, NIR, and depth fusion for 3D Gaussian Splatting.
 
-Previously, I've contributed to control systems research advised by Prof. [Jenny Yu](https://ieeexplore.ieee.org/author/37086802910) and MIT Lincoln Laboratory Engineer [Christopher Lai](https://www.linkedin.com/in/cclai/) at the **BANSHEE UAV** project (in collaboration with Lockheed Martin), where I developed autonomous visual tracking for VTOL platforms using ArUco marker detection and derivative-based control. 
+I previously researched 3D Vision-Language Transformer Models at the **GRASP Laboratory** (University of Pennsylvania), developing the **Avi** architecture—a 3D Vision-Language Action Model accepted into the NeurIPS 2025 Workshop on Embodied World Models. I ran 2k parallel simulations on NVIDIA HPC with Python, CUDA, and PyTorch.
 
-I have also held software engineering roles at Leidos, where I developed infrastructure tools for autonomous naval vessels, and at the Office of Naval Research, where I worked on real-time detection pipelines using RGB-D imaging and SLAM systems.
+I have also held software engineering roles at **Leidos** (Sea Archer autonomous naval vessels—Docker, Kubernetes, Ansible) and the **Office of Naval Research** (IED detection and defusal software with OpenCV, RGB-D imaging, and Turtlebots on NVIDIA Jetson TX2).
 
 
 Research Interests
@@ -40,7 +40,7 @@ Selected Projects
       <em>Structures-Computer Lab - University of California, Los Angeles</em><br>
       <a href="https://bobbykabob.github.io/hiddenfruits/">Project Page</a> &nbsp;|&nbsp;
       <a href="https://bobbykabob.github.io/hiddenfruits/static/paper.pdf">Paper</a> &nbsp;|&nbsp;
-      <a href="/files/hiddenobject.pdf.">Hidden Object Paper</a>
+      <a href="/files/hiddenobject.pdf">Hidden Object Paper</a>
       </p>
     </td>
   </tr>
@@ -96,28 +96,37 @@ Publications
 <table style="border: none; border-collapse: collapse;">
   <tr style="border: none;">
     <td width="250" style ="border: none;">
+      <img src="/images/avi.png" width="240" style="border: none;">
+    </td>
+    <td style ="border: none;">
+      <p><strong>Avi: A 3D Vision-Language Action Model Architecture generating Action from Volumetric Inference</strong><br>
+      <strong>Harris Song</strong>, Long Le<br>
+      <em>NeurIPS 2025 - Embodied World Models for Decision Making Workshop</em><br>
+      <a href="https://action-volume-inference.github.io/">Project Website</a> &nbsp;|&nbsp; <a href="https://openreview.net/pdf?id=3UB24EwYWV">PDF</a>
+      </p>
+    </td>
+  </tr>
+  <tr style="border: none;">
+    <td width="250" style ="border: none;">
       <img src="/images/reconstruction.png" width="240" style="border: none;">
     </td>
     <td style ="border: none;">
       <p><strong>Reconstruction Using the Invisible: Intuition from NIR and Metadata for Enhanced 3D Gaussian Splatting</strong><br>
       Gyusam Chang, Tuan-Anh Vu, Vivek Alumootil, <strong>Harris Song</strong>, Deanna Pham, Sangpil Kim, M. Khalid Jawed<br>
-      <em>CVPR 2025 - 2nd Workshop on Neural Fields Beyond Conventional Cameras</em><br>
+      <em>AAAI 2025 - 39th AAAI Conference on Artificial Intelligence</em><br>
       <a href="https://drive.google.com/file/d/1Qt0EgbDEEPwOe0FkUrS-trYPWGARcXdW/view">Paper</a>
       </p>
     </td>
   </tr>
-
-
   <tr style="border: none;">
     <td width="250" style ="border: none;">
       <img src="/images/wts.png" width="240" style="border: none;">
     </td>
     <td style ="border: none;">
-      <p><strong>Demonstration of wireless synchronisation methods in autonomously controlled fleet of drones</strong>
-      <br>
+      <p><strong>Demonstration of Wireless Synchronization Methods in Autonomously Controlled Fleet of Drones</strong><br>
       Christopher Lai, <strong>Harris Song</strong>, Aaron Madrigal, Michael Youssef, Borick Lieng, Mohamed Hamida, Quyen Tran, Phu Ngo, Bethany Chang, Steven Dobbs, Zhen Yu<br>
-      <em>International Journal of Mobile Network Design and Innovation</em><br>
-      <a href="https://dl.acm.org/doi/abs/10.1504/ijmndi.2024.136443">Paper</a>
+      <em>International Journal of Mobile Network Design and Innovation</em>, 2024<br>
+      <a href="https://doi.org/10.1504/ijmndi.2024.136443">Paper</a>
       </p>
     </td>
   </tr>

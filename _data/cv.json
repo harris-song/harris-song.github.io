@@ -1,152 +1,167 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Harris Song",
+    "email": "songharris2006@g.ucla.edu",
+    "phone": "626-295-6721",
+    "website": "https://harrissong.com",
+    "summary": "B.S. Computer Science @ UCLA. Software Engineer at Shopify. Research in 3D Vision-Language Models and embedded ML systems.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Los Angeles",
       "countryCode": "US",
-      "region": ""
+      "region": "CA"
     },
     "profiles": [
-      {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
-      }
+      {"network": "LinkedIn", "username": "harris-song", "url": "https://linkedin.com/in/harris-song"},
+      {"network": "GitHub", "username": "bobbykabob", "url": "https://github.com/bobbykabob"}
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "company": "Shopify",
+      "position": "Software Engineer Intern",
+      "website": "",
+      "startDate": "2026-01",
+      "endDate": "Present",
+      "summary": "Working on Search (Index Serving)",
+      "highlights": [
+        "Improving Shopify's Catalog Search (Elasticsearch-based) performance in C++",
+        "Approx. Nearest Neighbor benchmark indexing, searching 3×10⁵ queries/s for large-scale (1B+ items) catalogs",
+        "Optimizing up ten-fold (from 5×10³ to 3×10⁵ q/s), working w/ ML Pipelines, GCP, Terraform, Kubernetes for deployment"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "company": "Leidos",
+      "position": "Software Engineering Intern",
+      "website": "",
+      "startDate": "2024-09",
+      "endDate": "2024-12",
+      "summary": "Worked on Sea Archer autonomous vessel systems",
+      "highlights": [
+        "Lightweight implementation of Sea Hunter that has already circumnavigated the world",
+        "Converted server-grade Kubernetes DevOps to lightweight Docker, RHEL/Rocky 8, enabling autonomous startup/stop",
+        "Debugged Ansible Playbooks and System C++ Architecture, built on NVIDIA-like edge hardware"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "company": "Office of Naval Research (US Navy)",
+      "position": "Software Engineering Intern",
+      "website": "",
+      "startDate": "2023-06",
+      "endDate": "2023-08",
+      "summary": "IED detection and defusal software",
+      "highlights": [
+        "Developed detection and defusal software for improvised explosive devices autonomously found in the Iraq War",
+        "Used OpenCV, Python for camera-based bomb detection, unit/integration tests with hardware-in-the-loop for validation",
+        "Modernized fleet of Turtlebots to NVIDIA Edge-AI Jetson TX2, Astra Orbbec 3D to ZED RGB-D camera"
+      ]
+    },
+    {
+      "company": "LA Hacks",
+      "position": "Member of Technical Staff",
+      "website": "",
+      "startDate": "2024-09",
+      "endDate": "Present",
+      "summary": "Southern California's Largest Hackathon",
+      "highlights": [
+        "Worked on lahacks.com, apply.lahacks.com, managing UX and statistics features",
+        "Built backend features supporting 6k+ applications through PostgreSQL, JWT Auth (Supabase) and Next.js (Vercel)",
+        "Improved submission workflow, 2x application count (from 3k to 6k) through UX, performance and reliability"
+      ]
+    },
+    {
+      "company": "Structures Computer Lab, UCLA",
+      "position": "Software Engineering Researcher",
+      "website": "",
+      "startDate": "2025-01",
+      "endDate": "Present",
+      "summary": "HiddenFruits: Embedded/ML fruit detection system",
+      "highlights": [
+        "Multi-modal CV running C on NVIDIA Jetson Orin Nano",
+        "Developed Linux kernel drivers and C firmware for FLIR Lepton thermal sensors",
+        "Implemented SPI/I2C protocol, UART, and boot loader (extlinux.conf, DTB) on Ubuntu 20.04/Linux Tegra"
+      ]
+    },
+    {
+      "company": "GRASP Laboratory, University of Pennsylvania",
+      "position": "ML Researcher",
+      "website": "",
+      "startDate": "2025-06",
+      "endDate": "2025-09",
+      "summary": "3D Vision-Language Transformer Models",
+      "highlights": [
+        "Researching 3D Vision-Language Transformer Models, developing intuition for the 3D World through co-training",
+        "Running 2k parallel simulations on NVIDIA HPC w/ Python, CUDA, PyTorch, Multi-Modal (text, 3D Voxels) architecture",
+        "State-of-the-Art model more generalizable than previous discrete architectures, accepted into NeurIPS 2025 Workshop"
+      ]
     }
   ],
-  "skills": [],
+  "education": [
+    {
+      "institution": "University of California, Los Angeles (UCLA)",
+      "area": "B.S. Computer Science",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "2027",
+      "gpa": "3.82",
+      "courses": ["OS (Threading/Processes in C++)", "GCP/AWS", "Databases", "Distributed Systems", "Gerrit/Critique", "Monorepo", "Kubernetes"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technologies",
+      "level": "",
+      "keywords": ["C++", "Python", "OpenCV", "PyTorch", "CUDA", "Elasticsearch", "GCP", "AWS", "Terraform", "Kubernetes", "Docker", "PostgreSQL", "Next.js", "Supabase"]
+    },
+    {
+      "name": "Embedded",
+      "level": "",
+      "keywords": ["Linux kernel", "NVIDIA Jetson", "SPI", "I2C", "UART", "FLIR Lepton", "Jetson Orin Nano"]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Avi: A 3D Vision-Language Action Model Architecture generating Action from Volumetric Inference",
+      "publisher": "NeurIPS 2025 - Embodied World Models for Decision Making",
+      "releaseDate": "2025",
+      "website": "https://openreview.net/pdf?id=3UB24EwYWV",
+      "summary": "Harris Song, Long Le. Project: https://action-volume-inference.github.io/"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Reconstruction Using the Invisible: Intuition from NIR and Metadata for Enhanced 3D Gaussian Splatting",
+      "publisher": "AAAI 2025",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Gyusam Chang, Tuan-Anh Vu, Vivek Alumootil, Harris Song, Deanna Pham, Sangpil Kim, M. Khalid Jawed"
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Demonstration of Wireless Synchronization Methods in Autonomously Controlled Fleet of Drones",
+      "publisher": "IJMNDI Journal",
+      "releaseDate": "2024",
+      "website": "https://doi.org/10.1504/ijmndi.2024.136443",
+      "summary": "Christopher Lai, Harris Song, et al."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
+      "name": "EcoLens - Wolfram Research Award Winner",
       "category": "portfolio",
-      "date": "",
+      "date": "2023",
+      "url": "https://github.com/bobbykabob/pennapps2023",
+      "description": "Top 20/115 teams. Management software for sorting trash. Connected IoT to ML pipeline. Vision-based model on ~450 images for recyclables."
+    },
+    {
+      "name": "FIRST Robotics - Team Captain and Mentor",
+      "category": "portfolio",
+      "date": "2019-2023",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "1st in Nation (7000+ teams) twice in 2021, 2023. Built hardware-in-the-loop software for World Champs. Multi-camera fault-tolerant systems, TensorFlow ML 97% confidence vision detection."
     }
   ]
 }
