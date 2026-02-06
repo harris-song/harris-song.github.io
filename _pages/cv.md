@@ -32,7 +32,7 @@ Work experience
   - Modernized a fleet of Turtlebots to NVIDIA Edge-AI Jetson TX2, and from Astra Orbbec 3D to the ZED RGB-D based Camera
 
 * Member of Technical Staff, LA Hacks, UCLA CA, 2024 - Present
-  - Worked on lahacks.com, apply.lahacks.com, managing UX and statistics features for Southern California's Largest Hackathon
+  - Worked on [lahacks.com](https://lahacks.com), [apply.lahacks.com](https://apply.lahacks.com), managing UX and statistics features for Southern California's Largest Hackathon
   - Built backend features supporting 6k+ applications through PostgreSQL, JWT Auth (Supabase) and Next.js (Vercel)
   - Improved submission workflow, 2x application count (from 3k to 6k) apps through UX, performance and reliability
 
