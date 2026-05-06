@@ -27,9 +27,9 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Computer Science @ UCLA"
   location         : "America/Los_Angeles"
-  employer         : "Shopify"
+  employer         : # employer removed from sidebar
   uri              : # URL
-  email            : "songharris2006@g.ucla.edu" 
+  email            : # email removed from sidebar
 
   # Academic websites
   academia         : # URL
